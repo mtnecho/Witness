@@ -1,0 +1,102 @@
+{
+    "name": "GameInputActions",
+    "maps": [
+        {
+            "name": "mobile",
+            "id": "e970efe8-863c-47ed-a4dc-7290b751fea2",
+            "actions": [
+                {
+                    "name": "moveControl",
+                    "type": "Value",
+                    "id": "0059529e-da4a-405f-8931-466dbf538e6d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "cameraControl",
+                    "type": "Value",
+                    "id": "f151389f-c3c3-4005-85df-0102671dc81c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3d570c73-6861-4057-89bc-d134fa6847e4",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "moveControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0037f0a8-55d7-4bc0-b90a-a1ceeb157b89",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "cameraControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PC",
+            "id": "57dee5c6-2985-4a14-aa49-6c58b6bad21c",
+            "actions": [
+                {
+                    "name": "CameraControl",
+                    "type": "Value",
+                    "id": "94f3605a-3fe0-41cb-91bf-a9893ebb5a23",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MoveControl",
+                    "type": "Value",
+                    "id": "212e7019-af35-43d2-8901-a5ab7fe772aa",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3a34c98d-4164-454f-ba7d-c1468301a2f6",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "92275ddd-aefb-4417-b6bb-866a7f640f7c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveControl",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
